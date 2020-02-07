@@ -1,0 +1,174 @@
+/*navbar*/
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.items {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu li {
+  color: #ababab;
+  list-style: none;
+}
+
+.dropdownMenu {
+  visibility: hidden;
+}
+.menu:hover .dropdownMenu {
+  visibility: visible;
+}
+.menu:hover li {
+  color: #00b39b;
+}
+/*paragraph*/
+.logo {
+  width: 250px;
+  height: 50px;
+}
+.Smalllogo {
+  margin-top: 15%;
+  margin-left: 49%;
+}
+.title {
+  color: #00bfa5;
+  display: flex;
+  justify-content: center;
+}
+.Twopara {
+  display: flex;
+  color: grey;
+}
+
+.parag {
+  margin: 3% 10%;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.Twocart {
+  display: flex;
+
+  overflow: hidden;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.mainCart {
+  margin: 2%;
+  overflow: hidden;
+}
+
+.mainCart p {
+  color: white;
+}
+.mainCart h3 {
+  color: white;
+}
+.mainCart img {
+  display: flex;
+  padding-left: 40%;
+  width: 70%;
+}
+/*doctorLink*/
+.doctorLink {
+  display: flex;
+  color: #00bfa5;
+}
+.doclogo {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*platform*/
+.plat {
+  display: flex;
+  background-color: #daf7f6;
+}
+.platLeft {
+  margin: 2% 2%;
+}
+.platRight {
+  margin-right: 10%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: white;
+  width: 250px;
+  height: 300px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: #00bfa5;
+}
+.title2 {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  color: #00bfa5;
+}
+.title3 {
+  display: flex;
+  justify-content: center;
+  margin: 0% 30%;
+  text-align: center;
+  color: gray;
+}
+/*citycart*/
+
+.displayCart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+.btnpluscity {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.btn {
+  border-radius: 4px;
+  padding: 1.1666666667em 1.5em;
+  background: #3d83df;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-align: center;
+}
+/*footer*/
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer2 {
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+
+.footer3 {
+  margin-top: 1%;
+  color: aqua;
+}
+.footer4 {
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+.footer5 {
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
